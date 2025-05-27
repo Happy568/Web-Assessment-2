@@ -1,0 +1,162 @@
+.map-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 4px solid #333;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.6)
+}
+
+#village-map {
+  width: 100%;
+  height: auto;
+  cursor: grab;
+}
+
+@font-face {
+  font-family: 'ResidentEvilFilm';
+  src: url('../resident_evil_film.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ResidentEvilFilm';
+  src: url('fonts/PlakBlackExtraCondensed.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html body {
+  background-color: #1c1c1c !important;
+  background-image: url("../img/wallpaper-res81.jpg") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  min-height: 100vh;
+  color: #e0e0e0;
+  font-family: 'ResidentEvilFilm', serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #000;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+nav ul li a:hover {
+  color: #ff0000;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+footer p {
+  margin: 5px 0;
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 3px;
+}
+
+h1:first-of-type {
+  font-family: 'ResidentEvilFilm', sans-serif;
+  font-size: 80px;
+  color: black;
+  letter-spacing: 5px;
+  text-align: center;
+  padding: 10px;
+}
+
+
+p {
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+
+video {
+  border: 5px black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.meow {
+  background-color: #c30000;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.meow:hover {
+  background-color: #900000;
+}
+
+.map-section {
+  text-align: center;
+  margin: 50px auto;
+}
+
+#village-map {
+  width: 100%;
+  cursor: grab;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
